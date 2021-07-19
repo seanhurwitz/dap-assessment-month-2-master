@@ -1,0 +1,13 @@
+input GroupCreateInput {
+  id: ID!
+  name: String!
+}
+
+input UpdateGroupInput {
+  id: ID
+  name: String
+}
+
+input query {
+  query: String
+}

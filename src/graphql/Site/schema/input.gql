@@ -1,0 +1,12 @@
+input SiteCreateInput {
+  id: ID!
+  name: String!
+  orgId: ID!
+  location: [Float!]!
+}
+
+input UpdateSiteInput {
+  id: ID
+  name: String
+  location: [Float!]
+}

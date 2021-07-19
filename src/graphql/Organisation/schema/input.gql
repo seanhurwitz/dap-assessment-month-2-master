@@ -1,0 +1,14 @@
+input OrgCreateInput {
+  id: ID!
+  name: String!
+  groupId: ID!
+}
+
+input UpdateOrgInput {
+  id: ID
+  name: String
+}
+
+input query {
+  query: String
+}

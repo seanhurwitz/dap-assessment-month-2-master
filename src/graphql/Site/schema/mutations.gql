@@ -1,0 +1,4 @@
+type Mutation {
+  createSite(input: SiteCreateInput): Site!
+  updateSite(id: ID!, input: UpdateSiteInput): Site!
+}
