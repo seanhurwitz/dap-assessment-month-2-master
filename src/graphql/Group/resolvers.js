@@ -10,6 +10,6 @@ module.exports = {
     updateGroup: (_, { input }) => Group.updateGroup(input),
   },
   Group: {
-    Orgs: (grp, { query }) => Organisation.getGroupWithOrgs(grp.id, query),
+    Orgs: (grp, { query }) => Organisation.getGroup(grp.id, query),
   },
 };

@@ -11,6 +11,6 @@ module.exports = {
   },
   Org: {
     group: (org) => Group.getGroup(org.groupId),
-    sites: (org, { query }) => site.getOrgWithSites(org.id, query),
+    sites: (org, { query }) => Site.getOrgWithSites(org.id, query),
   },
 };
